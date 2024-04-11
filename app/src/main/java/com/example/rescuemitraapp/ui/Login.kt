@@ -1,4 +1,4 @@
-package com.example.rescuemitraapp
+package com.example.rescuemitraapp.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.rescuemitraapp.R
 import com.google.firebase.auth.FirebaseAuth
 
 
@@ -37,7 +38,7 @@ class Login : AppCompatActivity() {
                             // Sign in success, update UI with the signed-in user's information
                             Toast.makeText(this, "Sign In Successful", Toast.LENGTH_SHORT).show()
 
-                            val intent = Intent(this, Rescue::class.java)
+                            val intent = Intent(this, RescueDashboardActivity::class.java)
                             startActivity(intent)
                         } else {
                             // If sign in fails, display a message to the user.

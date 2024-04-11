@@ -14,7 +14,7 @@
         android:theme="@style/Theme.RescueMitraApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,14 +23,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Second"
+        <activity android:name=".ui.TypeOfUserSelectorActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login"
+        <activity android:name=".ui.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -39,7 +39,7 @@
         </activity>
 
         <activity
-            android:name=".Regsiter"
+            android:name=".ui.Regsiter"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +47,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Rescue"
+            android:name=".ui.RescueDashboardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,16 +55,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CitiLogin"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".CitizenRegister"
+            android:name=".ui.CitiLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -73,7 +64,7 @@
         </activity>
 
         <activity
-            android:name=".CitizenSignin"
+            android:name=".ui.CitizenRegister"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -82,7 +73,7 @@
         </activity>
 
         <activity
-            android:name=".Announcement"
+            android:name=".ui.CitizenDashboardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -91,23 +82,7 @@
         </activity>
 
         <activity
-            android:name=".Current"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Past"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Ongoing"
+            android:name=".ui.Announcement"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -116,7 +91,23 @@
         </activity>
 
         <activity
-            android:name=".Disaster"
+            android:name=".ui.Current"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Past"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Ongoing"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -125,15 +116,7 @@
         </activity>
 
         <activity
-            android:name=".Emergency"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Protocol"
+            android:name=".ui.Disaster"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -142,7 +125,24 @@
         </activity>
 
         <activity
-            android:name=".ChatNow"
+            android:name=".ui.Emergency"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Protocol"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.ChatNow"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

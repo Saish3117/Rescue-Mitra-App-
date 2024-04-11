@@ -38,7 +38,7 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/RescueAgency"
+            android:id="@+id/select_rescue_agency_button"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
@@ -59,7 +59,7 @@
             />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/Citizens"
+            android:id="@+id/select_citizen_button"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"

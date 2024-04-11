@@ -1,17 +1,18 @@
-package com.example.rescuemitraapp
+package com.example.rescuemitraapp.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.rescuemitraapp.R
 
 
-class CitizenSignin : AppCompatActivity() {
+class CitizenDashboardActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.citizens)
+        setContentView(R.layout.activity_citizen_dashboard)
 
 
         val buttons = findViewById<Button>(R.id.back)
@@ -34,7 +35,7 @@ class CitizenSignin : AppCompatActivity() {
 
         button3.setOnClickListener {
             // Handle button 3 click
-            val intent = Intent(this,Emergency::class.java)
+            val intent = Intent(this, Emergency::class.java)
             startActivity(intent)
         }
 
@@ -45,7 +46,7 @@ class CitizenSignin : AppCompatActivity() {
 
             buttons.setOnClickListener {
                 // Handle buttons click
-                val intent = Intent(this, Second::class.java)
+                val intent = Intent(this, TypeOfUserSelectorActivity::class.java)
                 startActivity(intent)
             }
         }

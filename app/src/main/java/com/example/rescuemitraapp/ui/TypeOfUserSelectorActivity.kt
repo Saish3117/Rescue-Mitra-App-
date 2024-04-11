@@ -1,25 +1,26 @@
-package com.example.rescuemitraapp
+package com.example.rescuemitraapp.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.rescuemitraapp.R
 
-class Second : AppCompatActivity() {
+class TypeOfUserSelectorActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.selector)
+        setContentView(R.layout.activity_type_of_user_selector)
 
-        val button1 = findViewById<Button>(R.id.RescueAgency)
-        val button2 = findViewById<Button>(R.id.Citizens)
+        val selectRescueAgencyButton = findViewById<Button>(R.id.select_rescue_agency_button)
+        val selectCitizenUserButton = findViewById<Button>(R.id.select_citizen_button)
 
-        button1.setOnClickListener {
+        selectRescueAgencyButton.setOnClickListener {
             // Handle button 1 click
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
 
-        button2.setOnClickListener {
+        selectCitizenUserButton.setOnClickListener {
             // Handle button 2 click
             val intent = Intent(this,  CitiLogin ::class.java)
             startActivity(intent)

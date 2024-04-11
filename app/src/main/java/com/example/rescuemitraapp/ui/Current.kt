@@ -1,20 +1,21 @@
-package com.example.rescuemitraapp
+package com.example.rescuemitraapp.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.rescuemitraapp.R
 
-class Past : AppCompatActivity() {
+class Current : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.past)
+        setContentView(R.layout.current)
 
         val button1 = findViewById<Button>(R.id.back)
         button1.setOnClickListener {
-            val intent = Intent(this, Rescue::class.java)
+            val intent = Intent(this, RescueDashboardActivity::class.java)
             startActivity(intent)
 
         }

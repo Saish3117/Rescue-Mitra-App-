@@ -1,4 +1,4 @@
-package com.example.rescuemitraapp
+package com.example.rescuemitraapp.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.rescuemitraapp.R
 import com.google.firebase.auth.FirebaseAuth
 
 class Regsiter : AppCompatActivity() {
@@ -22,7 +23,7 @@ class Regsiter : AppCompatActivity() {
         val passwordEditText: EditText = findViewById(R.id.password)
 
         signInButton.setOnClickListener {
-            val intent = Intent(this, Rescue::class.java)
+            val intent = Intent(this, RescueDashboardActivity::class.java)
             startActivity(intent)
         }
 
