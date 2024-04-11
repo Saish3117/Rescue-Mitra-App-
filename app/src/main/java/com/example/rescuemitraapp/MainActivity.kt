@@ -1,15 +1,11 @@
-package com.example.rescuemitraapps
+package com.example.rescuemitraapp
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.rescuemitraapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,13 +18,13 @@ class MainActivity : AppCompatActivity() {
         // Set an OnClickListener for the button
         buttonNavigateToSecondActivity.setOnClickListener {
             // Create an Intent to navigate to SecondActivity
-            val intent = Intent(this, second::class.java)
+            val intent = Intent(this, Second::class.java)
             startActivity(intent)
         }
 
         // Delay the navigation to SecondActivity for 2 seconds
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, second::class.java)
+            val intent = Intent(this, Second::class.java)
             startActivity(intent)
             finish() // Finish MainActivity to prevent going back to it using the back button
         }, 2000) // 2000 milliseconds = 2 seconds
