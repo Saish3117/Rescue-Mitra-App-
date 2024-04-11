@@ -109,7 +109,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/SinIn"
+        android:id="@+id/sign_up"
         android:layout_width="326dp"
         android:layout_height="43dp"
         android:layout_alignParentEnd="true"
@@ -158,8 +158,7 @@
         app:layout_constraintVertical_bias="0.873" />
 
     <androidx.appcompat.widget.AppCompatButton
-
-        android:id="@+id/signini"
+        android:id="@+id/sign_in"
         android:layout_width="116dp"
         android:layout_height="27dp"
         android:layout_alignParentEnd="true"
