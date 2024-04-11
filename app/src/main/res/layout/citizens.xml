@@ -54,7 +54,6 @@
         android:id="@+id/ongoing"
         android:layout_width="299dp"
         android:layout_height="44dp"
-
         android:layout_alignParentEnd="true"
         android:layout_gravity="center"
         android:layout_marginHorizontal="20dp"

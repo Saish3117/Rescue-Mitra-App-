@@ -7,7 +7,6 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rescuemitraapp.R
 import com.example.rescuemitraapp.CitizenSignin
-import com.example.rescuemitraapps.CitizenRegister
 
 
 class CitiLogin : AppCompatActivity() {
