@@ -6,17 +6,19 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rescuemitraapp.R
-import com.example.rescuemitraapp.data.USER_TYPE_CITIZEN
-import com.example.rescuemitraapp.data.USER_TYPE_RESCUE_AGENCY
 import com.example.rescuemitraapp.data.getTypeOfUser
 import com.example.rescuemitraapp.data.isUserLogin
 import com.example.rescuemitraapp.data.setTypeOfUser
 import com.example.rescuemitraapp.data.setUserLoginStatus
+import com.example.rescuemitraapp.utils.USER_TYPE_CITIZEN
+import com.example.rescuemitraapp.utils.USER_TYPE_RESCUE_AGENCY
+import com.google.firebase.auth.FirebaseAuth
 
-class MainActivity : AppCompatActivity() {
+class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
+        val auth: FirebaseAuth = FirebaseAuth.getInstance()
 
         // Delay the navigation to SecondActivity for 2 seconds
         Handler(Looper.getMainLooper()).postDelayed({

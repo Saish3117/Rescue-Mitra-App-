@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.rescuemitraapp.R
+import com.example.rescuemitraapp.data.setTypeOfUser
+import com.example.rescuemitraapp.data.setUserLoginStatus
+import com.google.firebase.auth.FirebaseAuth
 
 class RescueDashboardActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -18,7 +21,7 @@ class RescueDashboardActivity : AppCompatActivity() {
         val button1 = findViewById<Button>(R.id.Announcement)
         val button2 = findViewById<Button>(R.id.current)
         val button3 = findViewById<Button>(R.id.past)
-        val button4 = findViewById<Button>(R.id.geelp)
+        val signOutButton = findViewById<Button>(R.id.sign_out_button)
 
 
         button1.setOnClickListener {
@@ -42,6 +45,15 @@ class RescueDashboardActivity : AppCompatActivity() {
                     }
                 }
             }
+        }
+
+        signOutButton.setOnClickListener {
+            setUserLoginStatus(this, false)
+            setTypeOfUser(this, null)
+            FirebaseAuth.getInstance().signOut()
+            val intent = Intent(this, TypeOfUserSelectorActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+            startActivity(intent)
         }
     }
 }

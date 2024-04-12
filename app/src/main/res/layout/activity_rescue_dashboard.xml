@@ -92,6 +92,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.696" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_out_button"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/btn_green"
+        android:drawableStart="@drawable/img_17"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="8dp"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/community"
+        />
+
     <ImageView
         android:id="@+id/image_1"
         android:layout_width="87dp"
