@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268621223538",
+    "project_id": "rescuemitraapp",
+    "storage_bucket": "rescuemitraapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268621223538:android:a58ba44714c58836b594eb",
+        "android_client_info": {
+          "package_name": "com.example.rescuemitraapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnYoJMY6TI7mMRzr5Pozx2Sab2CJYPjXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

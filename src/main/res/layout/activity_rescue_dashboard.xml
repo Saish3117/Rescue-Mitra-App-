@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="459dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_9" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Announcement"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/btn_green"
+        android:drawableStart="@drawable/img_14"
+        android:drawablePadding="8dp"
+        android:text="Create Public Announcement"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/current"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/btn_green"
+        android:drawableStart="@drawable/img_19"
+        android:drawablePadding="8dp"
+        android:text="Current Crises Update"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/past"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/btn_green"
+        android:drawableStart="@drawable/img_16"
+        android:drawablePadding="8dp"
+        android:text="Past Disaster Statistics"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/community"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/btn_green"
+        android:drawableStart="@drawable/img_17"
+        android:drawablePadding="8dp"
+        android:text="Create Public Announcement"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+<<<<<<< HEAD
+=======
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_out_button"
+        android:layout_width="165dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/btn_green"
+        android:drawablePadding="8dp"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/community" />
+
+>>>>>>> 11d4601 (done)
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="87dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/rescueagency"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/homer"
+        android:layout_width="63dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/img_37"
+        android:drawablePadding="8dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+</androidx.constraintlayout.widget.ConstraintLayout>

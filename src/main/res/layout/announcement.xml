@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9">
+
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="313dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/img_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="444dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_9" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/img_37"
+        android:drawablePadding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Annunem"
+        android:layout_width="297dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/citizenbtn"
+        android:drawableStart="@drawable/img_62"
+        android:drawablePadding="8dp"
+        android:text="Emergency alerts"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Annun"
+        android:layout_width="297dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/citizenbtn"
+        android:drawableStart="@drawable/img_63"
+        android:drawablePadding="8dp"
+        android:text="schedule of upcoming events"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Anunem"
+        android:layout_width="297dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/citizenbtn"
+        android:drawableStart="@drawable/img_42"
+        android:drawablePadding="8dp"
+        android:text="post videos drill "
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+</androidx.constraintlayout.widget.ConstraintLayout>
